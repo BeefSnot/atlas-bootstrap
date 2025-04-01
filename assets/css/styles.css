@@ -1,0 +1,51 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.navbar {
+    background-color: #007bff;
+}
+
+.navbar a {
+    color: white;
+}
+
+.navbar a:hover {
+    color: #ffcc00;
+}
+
+.banner {
+    background: url('https://source.unsplash.com/1600x400/?technology,cloud') no-repeat center center;
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    text-align: center;
+}
+
+.jumbotron {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    border-radius: 10px;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #343a40;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.aside-section aside {
+    background-color: #f8f9fa;
+    padding: 15px;
+    border-radius: 5px;
+}
